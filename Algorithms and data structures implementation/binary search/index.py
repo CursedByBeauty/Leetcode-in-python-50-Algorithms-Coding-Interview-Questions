@@ -4,7 +4,7 @@ def binarySearch(arr, target):
     right = len(arr)-1
     while left <= right:
 
-        mid = (left+right)//2
+        mid = (left+right)//2 #0 5 => (0+5)//2 = 2
 
         # Check if x is present at mid
         if arr[mid] == target:
